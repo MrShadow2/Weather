@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.logo {
+  font-family: "Roboto", sans-serif;
+  animation: stretch 1s linear infinite;
+}
+@keyframes stretch {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+   background: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+footer {
+  width: 100%;
+  margin-top: auto;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+  line-height: 20px;
+  font-size: small;
+}
+.profile {
+  width: 30vw;
+  max-width: 400px;
+  min-width: 200px;
+  border-radius: 50px;
+}
+.main_header_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main_header_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btnn {
+  width: 140px;
+}
+.w100 {
+  width: 500px;
+}
+.errorPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#hiddenData {
+  display: none;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.child {
+}
+#cityName {
+  width: 50vw;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border-style: none;
+  outline:blue;
+  opacity: 0.5;
+}
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+  margin-top: 30px;
+  background-color: lightgray;
+  border-radius: 10px;
+  opacity: 0.5;
+  
+}
+.center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   height: 100vh;
+   margin-top: 100px;
+   
+   border-radius: 10px;
+   opacity: 0.8;
+}
+.dataHeader{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   padding: 10px;
+   font-size: 20px;
+   font-weight: bold;
+}

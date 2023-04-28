@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+{{>links}}
+</head>
+<body>
+ 
+    <div class="main">
+        <div class="child">
+    <form  class="formm">
+        <input type="text" id="cityName" placeholder="Enter Your City name.">
+        <button type="submit " class="btn btn-outline-primary" id="Submitt">Find</button>
+    </form>
+    <div class="dataContainer">
+        <div class="dataHeader">
+            <p id="day">Wednesday</p>
+            <p id="today_date">26 April</p>
+        </div>
+        <div class="mainData">
+        <p id="city_name"> Get your Weather here!</p>
+        <div id="hiddenData">
+            <p id="curr_temp"> 32  <sup>O</sup> C</p>
+            <p id="temp_img"> <i class="fa fa-cloud" aria-hidden="true"></i></p>
+        </div>
+        </div></div>
+    </div></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
